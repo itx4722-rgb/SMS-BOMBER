@@ -353,7 +353,7 @@ async function sendSMS() {
     try {
         await fetch(`https://shadowscriptz.xyz/shadowapisv4/smsbomberapi.php?number=${number}`);
         // Show message after SMS sent
-        resultDiv.textContent = "YOUR MESSAGEAS SEND SUCCESSFULL💀";
+        resultDiv.textContent = "YOUR MESSAGES AS SEND SUCCESSFULLY💀";
         // Show WhatsApp overlay only after sending SMS
         document.getElementById('whatsappOverlay').style.display = 'flex';
     } catch (error) {
